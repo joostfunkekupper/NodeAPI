@@ -1,0 +1,7 @@
+---
+- hosts: all
+  roles:
+    - role: 'dstil.locales'
+      locale: 'en_AU'
+      encoding: 'UTF-8'
+      locales_user: 'vagrant'
